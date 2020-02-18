@@ -40,7 +40,7 @@
     "robotsSwitcher": false,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "sitemapSwitcher": true,
-    "siteUrl": "http://sparkonwatch.com/",
+    "siteUrl": "http://www.sparkonwatch.com/",
     "sitemapSwitcherAuto": true,
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-143753066-2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-143753066-2');\n</script>\n",
     "favicon": "",
