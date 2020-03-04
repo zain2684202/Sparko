@@ -70,9 +70,32 @@
             <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-black display-4" href="App.html"><span class="mbri-touch mbr-iconfont mbr-iconfont-btn"></span><font face="MobiriseIcons"><br></font>Get App</a></div>
         </div>
     </nav>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '1678638095724206', // REPLACE IF YOU WANT TO USE YOUR OWN FB APP
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  
+  <div class="fb-customerchat" page_id="113658686734867" ref="<OPTIONAL_WEBHOOK_PARAM>" minimized="true">
+</div>
+  
+  
 </section>
 
-<section class="engine"><a href="https://mobirise.info/q">responsive website templates</a></section><section class="header1 cid-rJXAhcnXag" id="header16-1">
+<section class="engine"><a href="https://mobirise.info/d">website maker</a></section><section class="header1 cid-rJXAhcnXag" id="header16-1">
 
     
 
@@ -439,27 +462,6 @@
         </div>
     </div>
   
-                  <!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v6.0'
-          });
-        };
-
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Your customer chat code -->
-      <div class="fb-customerchat" attribution="setup_tool" page_id="113658686734867">
-      </div>
 </section>
 
 
